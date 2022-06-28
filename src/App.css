@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: hsl(0, 0%, 95%);
+  color: #1d2129;
+}
+
+.Navbar {
+  font-size: 25px;
+  text-align: center;
+  color: #e9e9e9;
+  padding: 10px;
+  background: #6200ff;
+}
+
+.Input {
+  border: 1px solid hsl(216, 8%, 88%);
+  border-radius: 4px;
+  width: 576px;
+  margin: 20px auto;
+  background: #ffffff;
+}
+
+.Input_header,
+.Post {
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #dddfe2;
+  border-radius: 2px 2px 0 0;
+  margin: 0;
+  padding: 15px;
+}
+
+.Input_field {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.Input_field:focus {
+  outline: none;
+}
+
+.Post {
+  font-size: 20px;
+  border: 1px solid hsl(216, 8%, 88%);
+  border-radius: 4px;
+  width: 576px;
+  margin: 30px auto;
+  margin-bottom: 42px;
+  padding: 15px;
+  background: #ffffff;
+}
+
+.Port {
+  padding: 15px;
+}
+
+.Post__image {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.Post__delete {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: none;
+
+  padding: none;
+  float: right;
+
+  cursor: pointer;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
